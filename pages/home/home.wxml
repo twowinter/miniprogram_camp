@@ -1,5 +1,28 @@
 <!--pages/home/home.wxml-->
 <text>pages/home/home.wxml</text>
+
+<view class="index-link">
+  <navigator url="./../home/imgshow/imgshow" class="item-link">让⼩程序显示图片 </navigator>
+</view>
+
+<view class="event-list">
+  <navigator url="/pages/home/imgshow/imgshow" class="event-link">
+    <view class="event-img">
+      <image mode="widthFix" src="https://hackwork.oss-cn-shanghai.aliyuncs.com/lesson/weapp/4/weapp.jpg">
+      </image>
+    </view>
+    <view class="event-content">
+      <view class="event-title">零基础学会⼩程序开发</view>
+      <view class="event-desc">通过两天集中的学习，你会循序渐进的开发出⼀些具有实际应⽤场景的⼩程序。 </view>
+      <view class="event-box">
+        <view class="event-address">深圳南⼭</view>
+        <view class="event-time">2018年9⽉22⽇-23⽇</view>
+      </view>
+    </view>
+  </navigator>
+</view>
+
+
 <view id="wxmlinfo">
   <view class="content">
     <view class="title">WXML 模板</view>

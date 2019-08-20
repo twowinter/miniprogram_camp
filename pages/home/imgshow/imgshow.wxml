@@ -1,0 +1,23 @@
+<!--pages/home/imgshow/imgshow.wxml-->
+<text>pages/home/imgshow/imgshow.wxml</text>
+<view id="imgsection">
+  <view class="title">⼩程序显示图⽚</view>
+  <view class="imglist">
+    <image class="imgicon" src="/image/icon-home.png"></image>
+  </view>
+</view>
+
+<view class="imglist">
+  <image class="imgitem" mode="widthFix"  src="https://hackwork.oss-cn-shanghai.aliyuncs.com/lesson/weapp/4/weapp.jpg">
+  </image>
+</view>
+
+<view class="imglist">
+  <image class="imgfull" mode="center" src="https://tcb-1251009918.cos.ap-guangzhou.myqcloud.com/background.png">
+  </image>
+</view>
+
+<view class="imglist">
+  <image class="circle" mode="widthFix" src="https://hackwork.oss-cn-shanghai.aliyuncs.com/lesson/weapp/4/logo.jpg">
+  </image>
+</view>
